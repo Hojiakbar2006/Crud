@@ -1,0 +1,71 @@
+.modal-body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #0000004a;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 250px;
+}
+
+.modal {
+  width: 500px;
+  height: 200px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  background: #00000014;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.101) 0px 1.95px 0px;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+  gap: 20px;
+}
+
+.modalForm > input {
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid #00000042;
+  padding-left: 15px;
+}
+
+.modalForm > button {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid #163ff4;
+  color: #163ff4;
+  padding-left: 15px;
+  background: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.modalForm > button:hover {
+  background: #163ff4;
+  color: #fff;
+}
+
+.modalForm > button:active {
+  background: #fff;
+  color: #163ff4;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
